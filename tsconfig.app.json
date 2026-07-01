@@ -4,10 +4,12 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "rootDir": "./src",
+    "rootDir": ".",
     "types": []
   },
   "include": [
+    "main.ts",
+    "environment/**/*.ts",
     "src/**/*.ts"
   ],
   "exclude": [

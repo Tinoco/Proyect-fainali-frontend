@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
   // API_URL: 'http://localhost:3333/api',
-  API_URL: 'http://localhost:3333',
+  API_URL: 'https://proyect-fainali.onrender.com/api',
 };

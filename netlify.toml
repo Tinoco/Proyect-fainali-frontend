@@ -1,0 +1,10 @@
+netlify.toml
+
+[build]
+  command = "npm run build"
+  publish = "dist/proyecto_final_frontend/browser"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200

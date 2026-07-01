@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../../../environment/environment';
+import { environment } from '@env/environment';
 import { computed, inject, Injectable, signal } from '@angular/core';
 import { ILogin } from '../interfaces/ilogin';
 import { map, Observable, tap } from 'rxjs';

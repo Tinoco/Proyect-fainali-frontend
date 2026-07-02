@@ -4,6 +4,6 @@
   publish = "dist/proyecto_final_frontend/browser"
 
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/index.html"
   status = 200

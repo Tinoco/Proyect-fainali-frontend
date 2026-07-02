@@ -17,7 +17,7 @@ import { AuthResponse } from '../../../auth/interfaces/auth-response';
 })
 export class UsuarioService {
   private http = inject(HttpClient);
-  private baseUrl = environment.API_URL.replace('/api', '');
+  private baseUrl = environment.API_URL;
   private apiUrl = `${environment.API_URL}/usuarios`;
 
   registrarUsuario(usuario: IRegistro): Observable<AuthResponse> {

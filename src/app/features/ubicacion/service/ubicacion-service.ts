@@ -11,7 +11,7 @@ import { ISector, SectorResponse } from '../interface/isector';
 })
 export class UbicacionService {
   private http = inject(HttpClient);
-  private baseUrl = environment.API_URL.replace('/api', '');
+  private baseUrl = environment.API_URL;
 
   obtenerDepartamentos(): Observable<IDepartamento[]> {
     return this.http

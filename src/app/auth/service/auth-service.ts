@@ -16,8 +16,8 @@ type ProfileResponse =
 })
 export class AuthService {
   private http = inject(HttpClient);
-  private url = `${environment.API_URL.replace('/api', '')}/auth`;
-  private profileUrl = `${environment.API_URL.replace('/api', '')}/account/profile`;
+  private url = `${environment.API_URL}/auth`;
+  private profileUrl = `${environment.API_URL}/account/profile`;
   private usuario = signal<ILogin | null>(
     (() => {
       try {
